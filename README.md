@@ -96,6 +96,7 @@ pip install pytest ruff
 | Неподдерживаемый формат файла  | `--format xml`                             | `CliConfigError`(код 1)        |
 | Файл не найден                 | `python -m streamstats analyze nope.jsonl` | `FileNotFoundError`(код 1)     |
 | Неверный путь для сохранения   | `--output /nonexistent_dir/report.json`    | `CliConfigError`(код 1)        |
+
 При возникновении ошибки программа завершается с соответствующим кодом.
 
 ---
