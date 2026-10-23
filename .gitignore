@@ -1,0 +1,19 @@
+# Виртуальные окружения
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Кэши инструментов
+.pytest_cache/
+.ruff_cache/
+
+# IDE
+.idea/
+
+# Отчёты программы
+report.json
+*.log
